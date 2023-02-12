@@ -6,7 +6,7 @@ const ejs= require("ejs");
 const mongoose= require("mongoose");
 const encrypt =  require("mongoose-encryption");
 
-console.log(process.env.API_KEY);
+// console.log(process.env.API_KEY);
 
 const app=express();
 app.use(express.static("public"));
